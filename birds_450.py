@@ -199,12 +199,12 @@ pred_and_plot(model, filename=uploaded)
 
 
 # Get the top 3 predictions
-top_3 = np.argpartition(pred_class[0], -3)[-3:]
+# top_3 = np.argpartition(pred_class[0], -3)[-3:]
 
 # Get the names of the top 3 predictions
-top_3_names = [classnames[i] for i in top_3]
+# top_3_names = [classnames[i] for i in top_3]
 
 # Display the predictions
-st.header('Predictions:')
-for i, name in enumerate(top_3_names):
-st.text(f'{i+1}: {name}')
+# st.header('Predictions:')
+# for i, name in enumerate(top_3_names):
+# st.text(f'{i+1}: {name}')
